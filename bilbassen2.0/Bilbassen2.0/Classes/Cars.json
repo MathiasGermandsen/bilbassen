@@ -1,0 +1,846 @@
+{
+  "Volkswagen": [
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "year": 2022,
+      "horsepower": 147,
+      "cylinders": 4,
+      "engine_size": 1.4
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta",
+      "year": 2022,
+      "horsepower": 147,
+      "cylinders": 4,
+      "engine_size": 1.4
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "year": 2022,
+      "horsepower": 174,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Arteon",
+      "year": 2022,
+      "horsepower": 268,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "year": 2022,
+      "horsepower": 184,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Atlas",
+      "year": 2022,
+      "horsepower": 235,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf GTI",
+      "year": 2022,
+      "horsepower": 241,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf R",
+      "year": 2022,
+      "horsepower": 315,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat GT",
+      "year": 2022,
+      "horsepower": 174,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Atlas Cross Sport",
+      "year": 2022,
+      "horsepower": 235,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan R",
+      "year": 2022,
+      "horsepower": 316,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Taos",
+      "year": 2022,
+      "horsepower": 158,
+      "cylinders": 4,
+      "engine_size": 1.5
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Touareg",
+      "year": 2022,
+      "horsepower": 280,
+      "cylinders": 6,
+      "engine_size": 3.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat R-Line",
+      "year": 2022,
+      "horsepower": 174,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "T-Roc",
+      "year": 2022,
+      "horsepower": 148,
+      "cylinders": 4,
+      "engine_size": 1.4
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "CC",
+      "year": 2017,
+      "horsepower": 200,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Beetle",
+      "year": 2019,
+      "horsepower": 174,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Atlas SEL Premium",
+      "year": 2018,
+      "horsepower": 276,
+      "cylinders": 6,
+      "engine_size": 3.6
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta GLI",
+      "year": 2022,
+      "horsepower": 228,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta SportWagen",
+      "year": 2014,
+      "horsepower": 170,
+      "cylinders": 5,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat TDI",
+      "year": 2015,
+      "horsepower": 150,
+      "cylinders": 4,
+      "engine_size": 2.0
+    }
+  ],
+  "Volvo": [
+    {
+      "brand": "Volvo",
+      "model": "S60",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC40",
+      "year": 2022,
+      "horsepower": 187,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC60",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC90",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "S90",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V60",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V90",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V60 Cross Country",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V90 Cross Country",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "S60 T8 Polestar Engineered",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC60 T8 Polestar Engineered",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC40 Recharge",
+      "year": 2022,
+      "horsepower": 402,
+      "cylinders": 1,
+      "engine_size": 1.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC90 Recharge",
+      "year": 2022,
+      "horsepower": 400,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "S90 Recharge",
+      "year": 2022,
+      "horsepower": 400,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V60 Recharge",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V90 Recharge",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V60 T8 Polestar Engineered",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "V90 T8 Polestar Engineered",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "S60 Recharge",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC60 Recharge",
+      "year": 2022,
+      "horsepower": 415,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "S60 Cross Country",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC60 T5",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "XC90 T5",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Volvo",
+      "model": "S60 T5",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.0
+    }
+  ],
+  "Saab": [
+    {
+      "brand": "Saab",
+      "model": "9-3",
+      "year": 2011,
+      "horsepower": 210,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Saab",
+      "model": "9-5",
+      "year": 2011,
+      "horsepower": 220,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Saab",
+      "model": "9-4X",
+      "year": 2011,
+      "horsepower": 265,
+      "cylinders": 6,
+      "engine_size": 2.8
+    },
+    {
+      "brand": "Saab",
+      "model": "9-7X",
+      "year": 2009,
+      "horsepower": 300,
+      "cylinders": 8,
+      "engine_size": 5.3
+    },
+    {
+      "brand": "Saab",
+      "model": "9-3 Convertible",
+      "year": 2011,
+      "horsepower": 210,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Saab",
+      "model": "9-3 SportCombi",
+      "year": 2011,
+      "horsepower": 210,
+      "cylinders": 4,
+      "engine_size": 2.0
+    }
+  ],
+  "Porsche": [
+    {
+      "brand": "Porsche",
+      "model": "911 Carrera",
+      "year": 2022,
+      "horsepower": 379,
+      "cylinders": 6,
+      "engine_size": 3.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "911 Carrera 4",
+      "year": 2022,
+      "horsepower": 379,
+      "cylinders": 6,
+      "engine_size": 3.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "911 Carrera S",
+      "year": 2022,
+      "horsepower": 443,
+      "cylinders": 6,
+      "engine_size": 3.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "911 Carrera 4S",
+      "year": 2022,
+      "horsepower": 443,
+      "cylinders": 6,
+      "engine_size": 3.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "911 Turbo",
+      "year": 2022,
+      "horsepower": 572,
+      "cylinders": 6,
+      "engine_size": 3.8
+    },
+    {
+      "brand": "Porsche",
+      "model": "911 Turbo S",
+      "year": 2022,
+      "horsepower": 640,
+      "cylinders": 6,
+      "engine_size": 3.8
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayman",
+      "year": 2022,
+      "horsepower": 300,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayman S",
+      "year": 2022,
+      "horsepower": 350,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayman GTS",
+      "year": 2022,
+      "horsepower": 394,
+      "cylinders": 4,
+      "engine_size": 4.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Boxster",
+      "year": 2022,
+      "horsepower": 300,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Boxster S",
+      "year": 2022,
+      "horsepower": 350,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Porsche",
+      "model": "Boxster GTS",
+      "year": 2022,
+      "horsepower": 394,
+      "cylinders": 4,
+      "engine_size": 4.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Panamera",
+      "year": 2022,
+      "horsepower": 325,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Panamera 4",
+      "year": 2022,
+      "horsepower": 325,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Panamera S",
+      "year": 2022,
+      "horsepower": 443,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Panamera 4S",
+      "year": 2022,
+      "horsepower": 443,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Panamera GTS",
+      "year": 2022,
+      "horsepower": 473,
+      "cylinders": 8,
+      "engine_size": 4.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Macan",
+      "year": 2022,
+      "horsepower": 248,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Macan S",
+      "year": 2022,
+      "horsepower": 375,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Macan GTS",
+      "year": 2022,
+      "horsepower": 434,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayenne",
+      "year": 2022,
+      "horsepower": 335,
+      "cylinders": 6,
+      "engine_size": 3.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayenne S",
+      "year": 2022,
+      "horsepower": 434,
+      "cylinders": 6,
+      "engine_size": 2.9
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayenne GTS",
+      "year": 2022,
+      "horsepower": 453,
+      "cylinders": 8,
+      "engine_size": 4.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayenne Turbo",
+      "year": 2022,
+      "horsepower": 541,
+      "cylinders": 8,
+      "engine_size": 4.0
+    },
+    {
+      "brand": "Porsche",
+      "model": "Cayenne Turbo S",
+      "year": 2022,
+      "horsepower": 631,
+      "cylinders": 8,
+      "engine_size": 4.0
+    }
+  ],
+  "Mazda": [
+    {
+      "brand": "Mazda",
+      "model": "Mazda3",
+      "year": 2022,
+      "horsepower": 186,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda6",
+      "year": 2022,
+      "horsepower": 187,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "MX-5 Miata",
+      "year": 2022,
+      "horsepower": 181,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-3",
+      "year": 2022,
+      "horsepower": 148,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-30",
+      "year": 2022,
+      "horsepower": 186,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-5",
+      "year": 2022,
+      "horsepower": 187,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-9",
+      "year": 2022,
+      "horsepower": 227,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "MX-5 Miata RF",
+      "year": 2022,
+      "horsepower": 181,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-5 Diesel",
+      "year": 2022,
+      "horsepower": 168,
+      "cylinders": 4,
+      "engine_size": 2.2
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3 2.5 Turbo",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-9 2.5 Turbo",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3 Hatchback",
+      "year": 2022,
+      "horsepower": 186,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-30 2.5 Turbo",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda6 2.5 Turbo",
+      "year": 2022,
+      "horsepower": 227,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "MX-5 Miata Club",
+      "year": 2022,
+      "horsepower": 181,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-3 Sport",
+      "year": 2022,
+      "horsepower": 148,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-30 2.5 S",
+      "year": 2022,
+      "horsepower": 186,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3 2.5 Turbo Hatchback",
+      "year": 2022,
+      "horsepower": 250,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "Mazda3 Sedan",
+      "year": 2022,
+      "horsepower": 186,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-5 Grand Touring Reserve",
+      "year": 2022,
+      "horsepower": 227,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "MX-5 Miata Grand Touring",
+      "year": 2022,
+      "horsepower": 181,
+      "cylinders": 4,
+      "engine_size": 2.0
+    },
+    {
+      "brand": "Mazda",
+      "model": "CX-9 Signature",
+      "year": 2022,
+      "horsepower": 227,
+      "cylinders": 4,
+      "engine_size": 2.5
+    },
+    {
+      "brand": "Mazda",
+      "model": "MX-5 Miata RF Grand Touring",
+      "year": 2022,
+      "horsepower": 181,
+      "cylinders": 4,
+      "engine_size": 2.0
+    }
+  ],
+  "Devel": [
+    {
+      "brand": "Devel",
+      "model": "Sixteen",
+      "year": 2022,
+      "horsepower": 5007,
+      "cylinders": 16,
+      "engine_size": 12.3
+    }
+  ],
+  "Peel": [
+    {
+      "brand": "Peel",
+      "model": "P50",
+      "Year": 1962,
+      "horsepower": 4,
+      "cylinders": 1,
+      "engine_size": 0.05
+    }
+  ],
+  "Ford": [
+    {
+      "brand": "Ford",
+      "model": "Mustang Fastback",
+      "year": 1969,
+      "horsepower": 335,
+      "cylinders": 8,
+      "engine_size": 7.0
+    }
+  ],
+
+  "Redbull": [
+    {
+      "brand": "Redbull",
+      "model": "RB-19",
+      "year": 2023,
+      "horsepower": 1080,
+      "killowatts": 805,
+      "cylinders": 4,
+      "engine_size": 1.6
+    }
+  ]
+}

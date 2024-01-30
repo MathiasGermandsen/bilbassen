@@ -1,0 +1,52 @@
+﻿{
+  "Tesla": [
+    {
+      "brand" : "Tesla",
+      "model": "Model S",
+      "year": 2024,
+      "range_km": 650,
+      "battery_capacity_kWh": 100,
+      "power_hp": 1020
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "year": 2024,
+      "range_km": 450,
+      "battery_capacity_kWh": 60,
+      "power_hp": 283
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "year": 2024,
+      "range_km": 580,
+      "battery_capacity_kWh": 90,
+      "power_hp": 1020
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model Y",
+      "year": 2024,
+      "range_km": 480,
+      "battery_capacity_kWh": 75,
+      "power_hp": 384
+    },
+    {
+      "brand": "Tesla",
+      "model": "Cybertruck",
+      "year": 2023,
+      "range_km": 600,
+      "battery_capacity_kWh": 200,
+      "power_hp": 800
+    },
+    {
+"brand": "Tesla",
+      "model": "Roadster",
+      "year": 2022,
+      "range_km": 1000,
+      "battery_capacity_kWh": 200,
+      "power_hp": 1100
+    }
+  ]
+}

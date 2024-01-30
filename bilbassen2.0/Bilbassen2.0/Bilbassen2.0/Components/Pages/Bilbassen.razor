@@ -1,0 +1,245 @@
+﻿@page "/Bilbasen"
+@using Classes
+@using System.Text.Json
+@using System.Text.Json.Serialization
+
+<PageTitle>Bilbasen</PageTitle>
+
+<h1>Bilbasen</h1>
+
+
+
+<form>
+    <label for="brand-text">Search Brand:</label><br>
+    <input type="text" id="brand-sea-bar" name="brand-sea-bar-name"><br>
+</form>
+
+@foreach (var combustionCar in CombustionCarsList)
+{
+    <Cards Car="combustionCar" />
+    <p> </p>
+}
+
+@foreach (var electricCar in ElectricCarsList)
+{
+    <Cards EV="electricCar" />
+    <p> </p>
+}
+
+@code {
+    private List<CombustionCar> CombustionCarsList = new List<CombustionCar>();
+    protected override void OnInitialized()
+    {
+        LoadCarsData();
+    }
+
+    private void LoadCarsData()
+    {
+        try
+        {
+            string jsonContent = System.IO.File.ReadAllText("C:\\Users\\mgerm\\Downloads\\bilbassen2.0\\Bilbassen2.0\\Classes\\Cars.json");
+
+            using (JsonDocument document = JsonDocument.Parse(jsonContent))
+            {
+                foreach (JsonProperty brandProperty in document.RootElement.EnumerateObject())
+                {
+                    string brand = brandProperty.Name;
+                    JsonElement carsElement = brandProperty.Value;
+                    string[] colors = {
+    "Alpine White",
+    "Jet Black",
+    "Mineral Gray",
+    "Melbourne Red",
+    "Estoril Blue",
+    "Glacier Silver",
+    "Deep Sea Blue",
+    "Midnight Blue",
+    "Tanzanite Blue",
+    "Mojave Silver",
+    "Sunset Orange",
+    "Sparkling Brown",
+    "Frozen Blue",
+    "Platinum Gray",
+    "Soul Red Crystal",
+    "Machine Gray",
+    "Sonic Silver",
+    "Sapphire Blue",
+     "Crimson Red",
+    "Imperial Blue",
+    "Carbon Black",
+    "Mineral White",
+    "Orion Silver",
+    "Champagne Quartz",
+    "Lemans Blue",
+    "Verde Mantis",
+    "Rosso Corsa",
+    "Grigio Titanio",
+    "Blu Nettuno",
+    "Meteor Gray",
+    "Arctic White",
+    "Obsidian Black",
+    "Lunar Blue",
+    "Volcano Red",
+    "British Racing Green",
+    "Polar Silver",
+    "Moonstone Metallic",
+    "Sienna Brown",
+    "Azurite Black",
+    "Sepang Blue",
+    "Cherry Blossom",
+    "Havana Brown",
+    "Quicksilver",
+    "Pewter Gray",
+    "Frost White",
+    "Golden Bronze",
+    "Vivid Blue",
+    "Mystic Silver",
+    "Sunlit Green",
+    "Tornado Red",
+    "Electric Blue",
+    "Quasar Gray",
+    "Ceramic White",
+    "Solaris Orange",
+    "Bronze Fire",
+    "Magma Red"
+};
+
+                    Random randomNumber = new Random();
+                    Random randomKm = new Random();
+
+
+
+                    foreach (JsonElement carElement in carsElement.EnumerateArray())
+                    {
+                        var combustionCar = new CombustionCar
+                            {
+                                Brand = brand,
+                                Model = carElement.GetProperty("model").GetString(),
+                                Year = carElement.GetProperty("year").GetInt32(),
+                                HorsePower = carElement.GetProperty("horsepower").GetInt32(),
+                                CylinderCount = carElement.GetProperty("cylinders").GetInt32(),
+                                EngineSize = carElement.GetProperty("engine_size").GetDouble(),
+                                Color = colors[randomNumber.Next(0, 8)],
+                                KilometerDriven = randomKm.Next(500, 350000)
+                            };
+
+                        CombustionCarsList.Add(combustionCar);
+
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading cars data: {ex.Message}");
+        }
+    }
+
+
+    private List<ElectricCar> ElectricCarsList = new List<ElectricCar>(); // New list for electric cars
+
+    private void LoadElectricCarsData()
+    {
+        try
+        {
+            string jsonContent = System.IO.File.ReadAllText("C:\\Users\\mgerm\\Downloads\\bilbassen2.0\\Bilbassen2.0\\Classes\\EvCars.json");
+
+            using (JsonDocument document = JsonDocument.Parse(jsonContent))
+            {
+                foreach (JsonProperty brandProperty in document.RootElement.EnumerateObject())
+                {
+                    string brand = brandProperty.Name;
+                    JsonElement carsElement = brandProperty.Value;
+                    string[] colors = {
+    "Alpine White",
+    "Jet Black",
+    "Mineral Gray",
+    "Melbourne Red",
+    "Estoril Blue",
+    "Glacier Silver",
+    "Deep Sea Blue",
+    "Midnight Blue",
+    "Tanzanite Blue",
+    "Mojave Silver",
+    "Sunset Orange",
+    "Sparkling Brown",
+    "Frozen Blue",
+    "Platinum Gray",
+    "Soul Red Crystal",
+    "Machine Gray",
+    "Sonic Silver",
+    "Sapphire Blue",
+     "Crimson Red",
+    "Imperial Blue",
+    "Carbon Black",
+    "Mineral White",
+    "Orion Silver",
+    "Champagne Quartz",
+    "Lemans Blue",
+    "Verde Mantis",
+    "Rosso Corsa",
+    "Grigio Titanio",
+    "Blu Nettuno",
+    "Meteor Gray",
+    "Arctic White",
+    "Obsidian Black",
+    "Lunar Blue",
+    "Volcano Red",
+    "British Racing Green",
+    "Polar Silver",
+    "Moonstone Metallic",
+    "Sienna Brown",
+    "Azurite Black",
+    "Sepang Blue",
+    "Cherry Blossom",
+    "Havana Brown",
+    "Quicksilver",
+    "Pewter Gray",
+    "Frost White",
+    "Golden Bronze",
+    "Vivid Blue",
+    "Mystic Silver",
+    "Sunlit Green",
+    "Tornado Red",
+    "Electric Blue",
+    "Quasar Gray",
+    "Ceramic White",
+    "Solaris Orange",
+    "Bronze Fire",
+    "Magma Red"
+};
+
+                    Random randomNumber = new Random();
+                    Random randomKm = new Random();
+
+
+                    foreach (JsonElement carElement in carsElement.EnumerateArray())
+                    {
+                        var electricCar = new ElectricCar
+                            {
+                                Brand = brand,
+                                Model = carElement.GetProperty("model").GetString(),
+                                Year = carElement.GetProperty("year").GetInt32(),
+                                PowerHP = carElement.GetProperty("horsepower").GetInt32(),
+                                BatteryCapacityKWH = carElement.GetProperty("battery_capacity_kWh").GetInt32(),
+                                Color = colors[randomNumber.Next(0, 10)],
+                                KilometerDriven = randomKm.Next(500, 200000)
+                            };
+
+                        ElectricCarsList.Add(electricCar);
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading electric cars data: {ex.Message}");
+        }
+    }
+
+}
+
+
+
+
+
